@@ -6,7 +6,7 @@ import Resultado from "./src/components/Resultado";
 
 export default function App() {
   const [resultado, setResultado] = useState("0");
-
+//  função btn
   const btn = (btnClicado) => {
     let novoResultado = resultado;
 
